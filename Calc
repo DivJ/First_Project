@@ -1,0 +1,19 @@
+a=input("Enter The No 1 \n")
+b=input("Enter The No 2 \n")
+print "Which Operation you want to perform? \n"
+print "\n 1.Addition \n 2.Subtraction \n 3.Multiplication \n 4.Division \n"
+c=input()
+if c==1:
+	d=a+b
+elif c==2:
+	d=a-b
+elif c==3:
+	d=a*b
+elif c==4 and b!=0:
+	d=a/b
+else:
+	print "Invalid"
+	exit()
+
+print d
+
